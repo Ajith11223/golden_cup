@@ -15,6 +15,13 @@ export type PresetType =
   | 'rotate'
   | 'swing';
 
+  type ElementType = keyof JSX.IntrinsicElements | React.ComponentType<any>;
+
+interface Props {
+  as?: ElementType;
+  asChild?: ElementType;
+}
+
 export type AnimatedGroupProps = {
   children: ReactNode;
   className?: string;
@@ -116,11 +123,12 @@ function AnimatedGroup({
   const itemVariants = variants?.item || selectedVariants.item;
 
   const MotionComponent = React.useMemo(
-    () => motion.create(as as keyof JSX.IntrinsicElements),
+    () => motion.create(as),
     [as]
   );
+
   const MotionChild = React.useMemo(
-    () => motion.create(asChild as keyof JSX.IntrinsicElements),
+    () => motion.create(asChild),
     [asChild]
   );
 
