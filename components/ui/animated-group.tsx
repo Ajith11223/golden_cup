@@ -15,8 +15,9 @@ export type PresetType =
   | 'rotate'
   | 'swing';
 
-  type ElementType = keyof JSX.IntrinsicElements | React.ComponentType<any>;
-
+  type ElementType =
+  | keyof React.JSX.IntrinsicElements
+  | React.ComponentType<any>;
 interface Props {
   as?: ElementType;
   asChild?: ElementType;
