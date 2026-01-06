@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader } from '@/components/ui/card'
 import { Settings2, Sparkles, Zap } from 'lucide-react'
+import Image from 'next/image'
 import { ReactNode } from 'react'
 
 export default function Features() {
@@ -7,58 +8,75 @@ export default function Features() {
         <section className="py-16 md:py-32 dark:bg-transparent">
             <div className="@container mx-auto max-w-5xl px-6">
                 <div className="text-center">
-                    <h2 className="text-balance text-4xl font-semibold lg:text-5xl">Built to cover your needs</h2>
+                    <h2 className="text-balance text-4xl font-semibold lg:text-5xl">Our Signature Collections</h2>
                     <p className="mt-4">Libero sapiente aliquam quibusdam aspernatur, praesentium iusto repellendus.</p>
                 </div>
                 <Card className="@min-4xl:max-w-full @min-4xl:grid-cols-3 @min-4xl:divide-x @min-4xl:divide-y-0 mx-auto mt-8 grid max-w-sm divide-y overflow-hidden shadow-zinc-950/5 *:text-center md:mt-16">
                     <div className="group shadow-zinc-950/5">
                         <CardHeader className="pb-3">
                             <CardDecorator>
-                                <Zap
+                                {/* <Zap
                                     className="size-6"
                                     aria-hidden
-                                />
+                                /> */}
+                                                  <Image
+      src="/IMG_0452.JPG" 
+      alt="Hero" 
+      width={100} 
+      height={100} 
+      className="rounded-md"
+    />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">Customizable</h3>
+                            <h3 className="mt-6 font-medium">Traditional Kerala Bridal Jewellery</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="text-sm">Extensive customization options, allowing you to tailor every aspect to meet your specific needs.</p>
+                            <p className="text-sm">Temple, antique gold, kasu malas.</p>
                         </CardContent>
                     </div>
 
                     <div className="group shadow-zinc-950/5">
                         <CardHeader className="pb-3">
                             <CardDecorator>
-                                <Settings2
-                                    className="size-6"
-                                    aria-hidden
-                                />
+                            <Image
+      src="/IMG_0452.JPG" 
+      alt="Hero" 
+      width={100} 
+      height={100} 
+      className="rounded-md"
+    />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">You have full control</h3>
+                            <h3 className="mt-6 font-medium">Luxury Designer Sets</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="mt-3 text-sm">From design elements to functionality, you have complete control to create a unique and personalized experience.</p>
+                            <p className="mt-3 text-sm">Chokers, layered necklaces, grand bridal combos.</p>
                         </CardContent>
                     </div>
 
                     <div className="group shadow-zinc-950/5">
                         <CardHeader className="pb-3">
                             <CardDecorator>
-                                <Sparkles
+                                {/* <Sparkles
                                     className="size-6"
                                     aria-hidden
-                                />
+                                /> */}
+                                                  <Image
+      src="/IMG_0452.JPG" 
+      alt="Hero" 
+      width={100} 
+      height={100} 
+      className="rounded-md"
+    />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">Powered By AI</h3>
+                            <h3 className="mt-6 font-medium">Modern & Contemporary</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="mt-3 text-sm">Elements to functionality, you have complete control to create a unique experience.</p>
+                            <p className="mt-3 text-sm">Diamond-look, minimalist, reception-ready jewellery.</p>
                         </CardContent>
                     </div>
                 </Card>

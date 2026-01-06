@@ -83,7 +83,42 @@ Kerala’s Largest Premium Bridal Rental Jewellery                              
                                     className="mx-auto mt-8 max-w-2xl text-balance text-lg">
 Step into a world of timeless elegance. We bring Kerala’s biggest and finest collection of bridal rental jewellery, helping brides shine with unmatched grace and sophistication—without the burden of ownership.
 </TextEffect>
-
+<AnimatedGroup
+                                    variants={{
+                                        container: {
+                                            visible: {
+                                                transition: {
+                                                    staggerChildren: 0.05,
+                                                    delayChildren: 0.75,
+                                                },
+                                            },
+                                        },
+                                        ...transitionVariants,
+                                    }}
+                                    className="mt-12 flex flex-col items-center justify-center gap-2 md:flex-row">
+                                    <div
+                                        key={1}
+                                        className="bg-foreground/10 rounded-[calc(var(--radius-xl)+0.125rem)] border p-0.5">
+                                        <Button
+                                            asChild
+                                            size="lg"
+                                            className="rounded-xl px-5 text-base">
+                                            <Link href="#link">
+                                                <span className="text-nowrap">Explore Our Collection</span>
+                                            </Link>
+                                        </Button>
+                                    </div>
+                                    <Button
+                                        key={2}
+                                        asChild
+                                        size="lg"
+                                        variant="ghost"
+                                        className="h-10.5 rounded-xl px-5 bg-background">
+                                        <Link href="#link">
+                                            <span className="text-nowrap">Book Your Consultation</span>
+                                        </Link>
+                                    </Button>
+                                </AnimatedGroup>
                                 
                             </div>
                         </div>
