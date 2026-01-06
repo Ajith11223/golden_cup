@@ -84,7 +84,7 @@ Kerala’s Largest Premium Bridal Rental Jewellery                              
 Step into a world of timeless elegance. We bring Kerala’s biggest and finest collection of bridal rental jewellery, helping brides shine with unmatched grace and sophistication—without the burden of ownership.
 </TextEffect>
 
-                                   <div className='flex gap-3item-center justify-center mt-3'>
+<div className="flex flex-col items-center justify-center gap-3 mt-3 md:flex-row">
                                    <div
                                         key={1}
                                         className="bg-foreground/10 rounded-[calc(var(--radius-xl)+0.125rem)] border p-0.5">
