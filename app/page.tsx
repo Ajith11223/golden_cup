@@ -1,3 +1,4 @@
+import CardList from "@/components/CardList";
 import { ComponentExample } from "@/components/component-example";
 import FAQsThree from "@/components/faq";
 import Features from "@/components/feature";
@@ -10,6 +11,7 @@ export default function Page() {
 return <>
 <HeroSection/>
 <Features/>
+<CardList/>
 <StatsSection/>
 <Testimonials/>
 <FAQsThree/>
