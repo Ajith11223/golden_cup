@@ -83,20 +83,9 @@ Kerala’s Largest Premium Bridal Rental Jewellery                              
                                     className="mx-auto mt-8 max-w-2xl text-balance text-lg">
 Step into a world of timeless elegance. We bring Kerala’s biggest and finest collection of bridal rental jewellery, helping brides shine with unmatched grace and sophistication—without the burden of ownership.
 </TextEffect>
-<AnimatedGroup
-                                    variants={{
-                                        container: {
-                                            visible: {
-                                                transition: {
-                                                    staggerChildren: 0.05,
-                                                    delayChildren: 0.75,
-                                                },
-                                            },
-                                        },
-                                        ...transitionVariants,
-                                    }}
-                                    className="mt-12 flex flex-col items-center justify-center gap-2 md:flex-row">
-                                    <div
+
+                                   <div className='flex gap-3item-center justify-center mt-3'>
+                                   <div
                                         key={1}
                                         className="bg-foreground/10 rounded-[calc(var(--radius-xl)+0.125rem)] border p-0.5">
                                         <Button
@@ -118,7 +107,7 @@ Step into a world of timeless elegance. We bring Kerala’s biggest and finest c
                                             <span className="text-nowrap">Book Your Consultation</span>
                                         </Link>
                                     </Button>
-                                </AnimatedGroup>
+                                   </div>
                                 
                             </div>
                         </div>
