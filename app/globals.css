@@ -138,8 +138,8 @@
 }
 
 .hero-bg {
-  background-image: url('https://cdn.pixabay.com/photo/2016/06/23/18/56/diamond-1475978_1280.png');
-  background-size: cover;
+  background-image: url('/IMG_0452.JPG');
+    background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 1000px;

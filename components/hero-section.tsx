@@ -71,10 +71,9 @@ export default function HeroSection() {
                                 <TextEffect
                                     preset="fade-in-blur"
                                     speedSegment={0.3}
-                                    as="h1"
-                                    className="mx-auto mt-8 max-w-4xl text-balance text-5xl max-md:font-semibold md:text-7xl lg:mt-16 xl:text-[5.25rem]">
-                                    Modern Solutions for Customer Engagement
-                                </TextEffect>
+                                    as="h3"
+                                    className="mx-auto mt-8 max-w-4xl text-balance text-3xl max-md:font-semibold md:text-5xl lg:mt-16 xl:text-[4.25rem]">
+Kerala’s Largest Premium Bridal Rental Jewellery                                </TextEffect>
                                 <TextEffect
                                     per="line"
                                     preset="fade-in-blur"
@@ -82,8 +81,8 @@ export default function HeroSection() {
                                     delay={0.5}
                                     as="p"
                                     className="mx-auto mt-8 max-w-2xl text-balance text-lg">
-                                    Highly customizable components for building modern websites and applications that look and feel the way you mean it.
-                                </TextEffect>
+Step into a world of timeless elegance. We bring Kerala’s biggest and finest collection of bridal rental jewellery, helping brides shine with unmatched grace and sophistication—without the burden of ownership.
+</TextEffect>
 
                                 
                             </div>
