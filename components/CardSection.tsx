@@ -2,41 +2,59 @@ import Link from 'next/link'
 
 const members = [
     {
-        name: 'Liam Brown',
-        role: 'Founder - CEO',
-        avatar: '1.PNG',
+        name: 'Premium Kunthan Chocker',
+        role: '',
+        avatar: '11.jpeg',
         link: '#',
     },
     {
-        name: 'Elijah ',
-        role: 'Co-Founder - CTO',
-        avatar: '2.PNG',
+        name: 'Palakka mala ',
+        role: '',
+        avatar: '12.jpeg',
         link: '#',
     },
     {
-        name: 'Isabella Garcia',
-        role: 'Sales Manager',
-        avatar: '3.PNG',
+        name: 'Premium Victorian Necklace',
+        role: '',
+        avatar: '13.jpeg',
         link: '#',
     },
     {
-        name: 'Henry ',
-        role: 'UX Engeneer',
-        avatar: '4.PNG',
+        name: 'Premium Victorian Necklace ',
+        role: '',
+        avatar: '14.jpeg',
         link: '#',
     },
     {
-        name: 'Ava Williams',
-        role: 'Interaction Designer',
-        avatar: '5.PNG',
+        name: 'Premium Victorian Chocker',
+        role: '',
+        avatar: '15.jpeg',
         link: '#',
     },
     {
-        name: 'Olivia Miller',
-        role: 'Visual Designer',
-        avatar: '6.PNG',
+        name: 'Premium Victorian Necklace',
+        role: '',
+        avatar: '16.jpeg',
         link: '#',
     },
+    // {
+    //     name: 'Premium Temple Necklace',
+    //     role: '',
+    //     avatar: '18.jpeg',
+    //     link: '#',
+    // },
+    // {
+    //     name: 'Premium Victorian Necklace',
+    //     role: '',
+    //     avatar: '17.jpeg',
+    //     link: '#',
+    // },
+    // {
+    //     name: 'Premium Victorian Necklace',
+    //     role: '',
+    //     avatar: '17.jpeg',
+    //     link: '#',
+    // },
 ]
 
 export default function CardSection() {
@@ -44,7 +62,7 @@ export default function CardSection() {
         <section className="bg-background py-16 md:py-32 dark:bg-transparent">
             <div className="mx-auto max-w-5xl border-t px-6">
                 {/* <span className="text-caption -ml-6 -mt-3.5 block w-max bg-gray-50 px-6 dark:bg-gray-950">Models</span> */}
-                <div className="mt-12 gap-4 sm:grid sm:grid-cols-2 md:mt-24">
+                <div className="mt-5 gap-4 sm:grid sm:grid-cols-2 md:mt-15">
                     <div className="sm:w-2/5">
                         <h2 className="text-3xl font-bold sm:text-4xl">Our Collections</h2>
                     </div>
