@@ -8,6 +8,7 @@ import HeroSection from "@/components/hero-section";
 import ModelCategory from "@/components/ModelCategory";
 import StatsSection from "@/components/statusSection";
 import WallOfLoveSection from "@/components/Testimonial";
+import TopBrands from "@/components/TopBrands";
 
 export default function Page() {
 return <>
@@ -18,6 +19,7 @@ return <>
 <CardSection/>
 <StatsSection/>
 <WallOfLoveSection/>
+{/* <TopBrands/> */}
 <FAQsThree/>
 <FooterSection/>
 </>
