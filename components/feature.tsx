@@ -8,7 +8,7 @@ export default function Features() {
       <div className="@container mx-auto max-w-5xl px-6">
         <div className="text-center">
           <h2 className="text-balance text-4xl font-semibold lg:text-5xl">
-            Why Choose Us:
+          Preferred By Many brides":
           </h2>
           <p className="mt-4">
             Libero sapiente aliquam quibusdam aspernatur, praesentium iusto
@@ -65,21 +65,7 @@ export default function Features() {
               <p className="mt-3 text-sm">Be a bride that stands out.</p>
             </CardContent>
           </div>
-          <div className="group shadow-zinc-950/5">
-            <CardHeader className="pb-3">
-              <CardDecorator>
-                <Sparkles className="size-6" aria-hidden />
-              </CardDecorator>
-
-              <h3 className="mt-6 font-medium">
-                🧼 *Hygienically Maintained*{" "}
-              </h3>
-            </CardHeader>
-
-            <CardContent>
-              <p className="mt-3 text-sm">Professionally cleaned & insured.</p>
-            </CardContent>
-          </div>
+          
           <div className="group shadow-zinc-950/5">
             <CardHeader className="pb-3">
               <CardDecorator>

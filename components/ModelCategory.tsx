@@ -77,7 +77,7 @@ export default function ModelCategory() {
                 </div>
 
                 <div className="mt-6">
-                    <h3 className="mb-6 text-lg font-medium">Upcoming Models</h3>
+                    <h3 className="mb-6 text-lg font-medium">New Arrivals</h3>
                     <div data-rounded="full" className="grid grid-cols-3 gap-4 border-t py-6 md:grid-cols-6">
                         {members.map((member, index) => (
                             <div key={index}>
