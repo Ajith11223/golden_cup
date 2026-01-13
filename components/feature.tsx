@@ -15,7 +15,7 @@ export default function Features() {
             repellendus.
           </p>
         </div>
-        <Card className="@min-4xl:max-w-full @min-4xl:grid-cols-3 @min-4xl:divide-x @min-4xl:divide-y-0 mx-auto mt-8 grid max-w-sm divide-y overflow-hidden shadow-zinc-950/5 *:text-center md:mt-16">
+        <Card className="@min-4xl:max-w-full @min-4xl:grid-cols-4 @min-4xl:divide-x @min-4xl:divide-y-0 mx-auto mt-8 grid max-w-sm divide-y overflow-hidden shadow-zinc-950/5 *:text-center md:mt-16">
           <div className="group shadow-zinc-950/5">
             <CardHeader className="pb-3">
               <CardDecorator>
@@ -65,37 +65,24 @@ export default function Features() {
               <p className="mt-3 text-sm">Be a bride that stands out.</p>
             </CardContent>
           </div>
+          <div className="group shadow-zinc-950/5">
+  <CardHeader className="pb-3">
+    <CardDecorator>
+      <Sparkles className="size-6" aria-hidden />
+    </CardDecorator>
+
+    <h3 className="mt-6 font-medium"> Online & Offline Services</h3>
+  </CardHeader>
+
+  <CardContent>
+    <p className="mt-3 text-sm">
+      Access our expert bridal styling and consultation services both online and in-person.
+    </p>
+  </CardContent>
+</div>
+
           
-          <div className="group shadow-zinc-950/5">
-            <CardHeader className="pb-3">
-              <CardDecorator>
-                <Sparkles className="size-6" aria-hidden />
-              </CardDecorator>
-
-              <h3 className="mt-6 font-medium">🤍 *Personalized Styling*</h3>
-            </CardHeader>
-
-            <CardContent>
-              <p className="mt-3 text-sm">
-                Expert guidance for your perfect bridal look.
-              </p>
-            </CardContent>
-          </div>
-          <div className="group shadow-zinc-950/5">
-            <CardHeader className="pb-3">
-              <CardDecorator>
-                <Sparkles className="size-6" aria-hidden />
-              </CardDecorator>
-
-              <h3 className="mt-6 font-medium">🤍 *Personalized Styling*</h3>
-            </CardHeader>
-
-            <CardContent>
-              <p className="mt-3 text-sm">
-                Expert guidance for your perfect bridal look.
-              </p>
-            </CardContent>
-          </div>
+          
         </Card>
       </div>
     </section>

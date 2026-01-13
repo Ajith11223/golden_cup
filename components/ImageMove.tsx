@@ -93,15 +93,21 @@ export default function HeroSection() {
                           mx-auto mt-8 max-w-4xl 
                           font-bold text-3xl max-md:font-semibold 
                           md:text-5xl lg:mt-16 xl:text-[4.25rem]
-                          bg-gradient-to-r from-[#003536] via-[#1aa37a] to-[#35d3c7]
-                          bg-clip-text text-transparent
-                          opacity-0 scale-95 translate-y-5
-                          animate-[glowUp_1.1s_cubic-bezier(.22,1,.36,1)_forwards]
+                      
                         "
                       >
                         Kerala’s Largest Premium Bridal Rental Jewellery
                       </TextEffect>
-
+                      <TextEffect
+                        per="line"
+                        preset="fade-in-blur"
+                        speedSegment={0.3}
+                        delay={0.5}
+                        as="p"
+                        className="mx-auto mt-8 max-w-2xl text-balance text-lg"
+                      >
+                        Step into a world of timeless elegance. We bring Kerala’s biggest and finest collection of bridal rental jewellery, helping brides shine with unmatched grace and sophistication—without the burden of ownership.
+                      </TextEffect>
                       <TextEffect
                         per="line"
                         preset="fade-in-blur"
