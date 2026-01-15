@@ -7,10 +7,10 @@ import React from 'react'
 import { cn } from '@/lib/utils'
 
 const menuItems = [
-    { name: 'Home', href: '#link' },
-    { name: 'About', href: '#link' },
-    { name: 'Services', href: '#link' },
-    { name: 'Contact Us', href: '#link' },
+    { name: 'Home', href: '/' },
+    { name: 'About', href: '/about' },
+    { name: 'Services', href: 'services' },
+    { name: 'Contact Us', href: '/contact' },
 ]
 
 export const HeroHeader = () => {
@@ -54,7 +54,7 @@ export const HeroHeader = () => {
                                     <li key={index}>
                                         <Link
                                             href={item.href}
-                                            className="text-muted-foreground hover:text-accent-foreground block duration-150">
+                                            className="text-muted-foreground font-bold hover:text-accent-foreground block duration-150">
                                             <span>{item.name}</span>
                                         </Link>
                                     </li>
