@@ -49,7 +49,7 @@ export default function HeroSection() {
               className="absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,var(--color-background)_75%)]"
             />
 
-            <div className="mx-auto max-w-7xl px-6">
+            <div className="mx-auto max-w-7xl px-6 text-center">
               <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
                 {/* <AnimatedGroup variants={transitionVariants}>
                                     <Link
@@ -70,8 +70,11 @@ export default function HeroSection() {
                                         </div>
                                     </Link>
                                 </AnimatedGroup> */}
+                                 <h3 className="mx-auto max-w-3xl text-3xl sm:text-2xl md:text-5xl lg:text-6xl text-center Page-Heading text-center">
+                                 Kerala’s Largest Premium Bridal Rental Jewellery
+                  </h3>
 
-                <TextAnimate
+                {/* <TextAnimate
                   animation="blurIn"
                   as="h2"
                   className="
@@ -84,7 +87,7 @@ export default function HeroSection() {
   "
                 >
                   Kerala’s Largest Premium Bridal Rental Jewellery
-                </TextAnimate>
+                </TextAnimate> */}
                 <TextEffect
                   per="line"
                   preset="fade-in-blur"
