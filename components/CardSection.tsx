@@ -69,7 +69,7 @@ const members = [
 
 export default function CardSection() {
   return (
-    <section className="bg-background py-12 md:py-32 dark:bg-transparent">
+    <section className=" py-12 md:py-32 dark:bg-transparent">
       <div className="mx-auto max-w-6xl border-t px-6">
         {/* <span className="text-caption -ml-6 -mt-3.5 block w-max bg-gray-50 px-6 dark:bg-gray-950">Models</span> */}
         <div className="mt-5 gap-4 sm:grid sm:grid-cols-2 md:mt-15">

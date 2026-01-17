@@ -27,9 +27,21 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background`}
-      >
+        className={`${geistSans.variable} ${geistMono.variable} antialiased  
+        
+        `}
+      >  <div className="luxury-bg">
+      <div className="stars"></div>
+      <div className="boxes">
+        <span className="box b1"></span>
+        <span className="box b2"></span>
+        <span className="box b3"></span>
+      </div>
+    </div>
+    <div className="content">
+
         {children}
+    </div>
       </body>
     </html>
   );

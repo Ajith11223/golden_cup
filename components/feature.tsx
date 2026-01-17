@@ -4,11 +4,11 @@ import { ReactNode } from "react";
 
 export default function Features() {
   return (
-    <section className="py-16 md:py-32 dark:bg-transparent">
+    <section className="py-16 md:py-32  dark:bg-transparent">
       <div className="@container mx-auto max-w-5xl px-6">
         <div className="text-center">
           <h2 className="text-balance text-4xl font-semibold lg:text-5xl">
-          Preferred By Many brides":
+          Preferred By Many brides
           </h2>
           <p className="mt-4">
             Libero sapiente aliquam quibusdam aspernatur, praesentium iusto
@@ -22,9 +22,9 @@ export default function Features() {
                 <Zap className="size-6" aria-hidden />
               </CardDecorator>
 
-              <h3 className="mt-6 font-medium">
+              <h4 className="mt-6 font-medium">
                 ✨ *Kerala’s Largest Collection*{" "}
-              </h3>
+              </h4>
             </CardHeader>
 
             <CardContent>

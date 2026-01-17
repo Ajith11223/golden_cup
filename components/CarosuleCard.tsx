@@ -36,7 +36,7 @@ export default function CarouselControlsOutside() {
   return (
     <>
       {/*<!-- Component: Carousel with controls outside --> */}
-      <section className="py-16 md:py-32 dark:bg-transparent">
+      <section className="py-16  md:py-32 dark:bg-transparent">
         <div className="@container mx-auto max-w-6xl px-6">
         <div className="mt-5 gap-4 sm:grid sm:grid-cols-2 p-3">
                     <div className="sm:w-2/5">
