@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 const inter = Inter({subsets:['latin'],variable:'--font-sans'});
 
@@ -32,6 +34,17 @@ export default function RootLayout({
         `}
       > 
         {children}
+        <div className="absolute bottom-10 right-10 py-3 WhatsApp-Icon z-10">
+              <Link
+                href="https://wa.me/919567593962?text=I%20would%20like%20to%20know%20more%20about%20Products"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="flex items-center justify-center bg-[#00D299] rounded-[50%] h-[60px] md:h-[65px] xl:h-[70px] w-[60px] md:w-[65px] xl:w-[70px] custom-shadow hover:scale-105 transform transition-all duration-300 cursor-pointer">
+                  <IoLogoWhatsapp className="text-[40px] md:text-[45px] xl:text-[50px] text-white" />
+                </div>
+              </Link>
+            </div>
       </body>
     </html>
   );
