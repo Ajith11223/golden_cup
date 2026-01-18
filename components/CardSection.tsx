@@ -65,27 +65,45 @@ const members = [
   //     avatar: '17.jpeg',
   //     link: '#',
   // },
+  {
+    name: "Premium Victorian Necklace",
+    role: "",
+    avatar: "16.jpeg",
+    link: "#",
+  },
+  {
+    name: "Premium Victorian Necklace",
+    role: "",
+    avatar: "16.jpeg",
+    link: "#",
+  },
+  {
+    name: "Premium Victorian Necklace",
+    role: "",
+    avatar: "16.jpeg",
+    link: "#",
+  },
+  {
+    name: "Premium Victorian Necklace",
+    role: "",
+    avatar: "16.jpeg",
+    link: "#",
+  },
 ];
 
 export default function CardSection() {
   return (
-    <section className=" py-12 md:py-32 dark:bg-transparent">
-      <div className="mx-auto max-w-6xl border-t px-6">
+    <section className="max-w-8xl  dark:bg-transparent bg-muted ">
+      <div className="">
+      <div className="
+         py-4 md:py-4 lg:py-6 xl:py-[0px]  sm:px-5 md:px-[20px]  lg:px-[60px] xl:px-[110px] flex flex-col
+          items-center justify-between gap-7 lg:gap-[30px] md:flex-row gap-[30px] items-center 
+               backdrop-blur-[18%] rounded-[16px]">
+      
         {/* <span className="text-caption -ml-6 -mt-3.5 block w-max bg-gray-50 px-6 dark:bg-gray-950">Models</span> */}
-        <div className="mt-5 gap-4 sm:grid sm:grid-cols-2 md:mt-15">
-          <div className="sm:w-2/5">
-            <h2 className="text-3xl font-bold sm:text-4xl">Our Collections</h2>
-          </div>
-          <div className="mt-6 sm:mt-0">
-            <p>
-              During the working process, we perform regular fitting with the
-              client because he is the only person who can feel whether a new
-              suit fits or not.
-            </p>
-          </div>
-        </div>
-        <div className="mt-12 md:mt-24">
-          <div className="grid gap-x-4 gap-y-9 sm:grid-cols-3 lg:grid-cols-3">
+       
+        <div className="mt-1 md:mt-4 p-4">
+          <div className="grid gap-x-4 gap-y-9 sm:grid-cols-3 lg:grid-cols-5">
             {members.map((member, index) => (
               <>
                 <Card  key={index} className="relative max-w-5xl shadow-none">
@@ -110,15 +128,15 @@ export default function CardSection() {
                       See our latest and best camp destinations all across the
                     </CardDescription> */}
                   </CardContent>
-                  <CardFooter className="space-x-4">
-                    {/* <Button>Let&apos;s go</Button> */}
+                  {/* <CardFooter className="space-x-4">
                     <Button variant="secondary">Connect</Button>
-                  </CardFooter>
+                  </CardFooter> */}
                 </Card>
               </>
             ))}
           </div>
         </div>
+      </div>
       </div>
     </section>
   );

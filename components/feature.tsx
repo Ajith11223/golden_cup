@@ -4,7 +4,11 @@ import { ReactNode } from "react";
 
 export default function Features() {
   return (
-    <section className="py-16 md:py-32  dark:bg-transparent">
+           <section className="py-10 md:py-16 overflow-hidden  dark:bg-transparent">
+    <div className="relative  z-0 ">
+      <div className="relative overflow-hidden ">
+      <div className="absolute -mt-20 Dentobees-WhyChooseUs-TopBackground" />
+      <div className="absolute Dentobees-Pages-Background -z-10"></div>
       <div className="@container mx-auto max-w-5xl px-6">
         <div className="text-center">
           <h2 className="text-balance text-4xl font-semibold lg:text-5xl">
@@ -85,6 +89,8 @@ export default function Features() {
           
         </Card>
       </div>
+      </div>
+      </div>
     </section>
   );
 }
@@ -96,7 +102,7 @@ const CardDecorator = ({ children }: { children: ReactNode }) => (
       className="absolute inset-0 bg-[linear-gradient(to_right,var(--color-border)_1px,transparent_1px),linear-gradient(to_bottom,var(--color-border)_1px,transparent_1px)] bg-[size:24px_24px] dark:opacity-50"
     />
 
-    <div className="bg-background absolute inset-0 m-auto flex size-12 items-center justify-center border-l border-t">
+    <div className=" absolute inset-0 m-auto flex size-12 items-center justify-center border-l border-t">
       {children}
     </div>
   </div>

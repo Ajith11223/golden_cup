@@ -18,10 +18,10 @@ return <>
 <HeroSection/>
 <CarouselControlsOutside/>
 <Features/>
-{/* <ModelCategory/> */}
-<MarqueeDemo/>
 <CardSection/>
 <StatsSection/>
+<MarqueeDemo/>
+{/* <ModelCategory/> */}
 <WallOfLoveSection/>
 {/* <TopBrands/> */}
 <FAQsThree/>

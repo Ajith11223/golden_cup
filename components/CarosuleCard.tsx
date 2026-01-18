@@ -36,16 +36,17 @@ export default function CarouselControlsOutside() {
   return (
     <>
       {/*<!-- Component: Carousel with controls outside --> */}
-      <section className="py-16  md:py-32 dark:bg-transparent">
-        <div className="@container mx-auto max-w-6xl px-6">
-        <div className="mt-5 gap-4 sm:grid sm:grid-cols-2 p-3">
-                    <div className="sm:w-2/5">
-                        <h2 className="text-3xl font-bold sm:text-4xl"> New Collections</h2>
-                    </div>
-                    <div className="mt-6 sm:mt-0">
-                        {/* <p>During the working process, we perform regular fitting with the client because he is the only person who can feel whether a new suit fits or not.</p> */}
-                    </div>
-                </div>
+      <section className="dark:bg-transparent border Dentobees-Pages-Background ">
+      <div className="relative overflow-hidden z-0 bg-muted">
+      <div className="relative overflow-hidden ">
+      <div className="absolute -mt-10 -md:mt-16 -xl:mt-20 Dentobees-WhyChooseUs-TopBackground" />
+      <div className="absolute Dentobees-Pages-Background -z-10"></div>
+
+        <div className="@container mx-auto max-w-8xl px-6 ">
+        <div className="
+         py-8 md:py-10 xl:py-[60px]  px-3 sm:px-5 md:px-[30px] lg:px-[50px] xl:px-[60px] flex flex-row items-center justify-between gap-7 lg:gap-[40px] md:flex-row gap-[30px] items-center 
+               backdrop-blur-[18%] rounded-[16px]">
+     
         <div className="glide-04 relative w-full">
           {/*    <!-- Slides --> */}
           <div className="overflow-hidden" data-glide-el="track">
@@ -56,14 +57,21 @@ export default function CarouselControlsOutside() {
                     <li>
                       <img
                         src={`${item}.PNG`}
-                        className="m-auto max-h-[420px] w-full max-w-full object-fit"
+                        className="m-auto max-h-[420px] w-full max-w-full object-fit rounded-lg"
                       />
                     </li>
                   </>
                 );
               })}
             </ul>
+            <h4 className="Sub-heading font-bold">
+            Our Collections
+          </h4>
           </div>
+          
+        </div>
+        </div>
+        </div>
         </div>
         </div>
         {/* </div> */}
