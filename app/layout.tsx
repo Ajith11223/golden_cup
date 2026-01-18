@@ -30,18 +30,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased  
         
         `}
-      >  <div className="luxury-bg">
-      <div className="stars"></div>
-      <div className="boxes">
-        <span className="box b1"></span>
-        <span className="box b2"></span>
-        <span className="box b3"></span>
-      </div>
-    </div>
-    <div className="content">
-
+      > 
         {children}
-    </div>
       </body>
     </html>
   );
