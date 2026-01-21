@@ -31,7 +31,17 @@ export default function CarouselControlsOutside() {
     };
   }, []);
 
-  const arr = [1, 2, 3, 4, 5, 6];
+  const arr = [
+    "./act/act1.jpeg",
+    "./act/act2.jpeg",
+    "./act/act3.jpeg",
+    "./act/act4.jpeg",
+    "./act/act5.jpeg",
+    "./act/act6.jpeg",
+    "./act/act7.jpeg",
+    "./act/act8.jpeg"
+  ]
+  
 
   return (
     <>
@@ -54,19 +64,29 @@ export default function CarouselControlsOutside() {
               {arr?.map((item: any) => {
                 return (
                   <>
-                    <li>
-                      <img
-                        src={`${item}.PNG`}
-                        className="m-auto max-h-[420px] w-full max-w-full object-fit rounded-lg"
-                      />
-                    </li>
+              <img
+  src={item}
+  alt=""
+  className="
+    w-full
+    max-w-full
+    object-cover
+    h-[220px]
+    sm:h-[280px]
+    md:h-[340px]
+    lg:h-[380px]
+    xl:h-[420px]
+    [mask-image:radial-gradient(white,black)]
+    rounded-lg
+  "
+/>
                   </>
                 );
               })}
             </ul>
-            <h4 className="Sub-heading font-bold">
+            {/* <h4 className="Sub-heading font-bold">
             Our Collections
-          </h4>
+          </h4> */}
           </div>
           
         </div>

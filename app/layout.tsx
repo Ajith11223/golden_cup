@@ -36,7 +36,7 @@ export default function RootLayout({
         {children}
         <div className="absolute bottom-10 right-10 py-3 WhatsApp-Icon z-10">
               <Link
-                href="https://wa.me/919567593962?text=I%20would%20like%20to%20know%20more%20about%20Products"
+                href="https://wa.me/918089933998?text=I%20would%20like%20to%20know%20more%20about%20Products"
                 target="_blank"
                 rel="noopener noreferrer"
               >

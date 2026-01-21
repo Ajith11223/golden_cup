@@ -66,29 +66,53 @@ const members = [
   //     link: '#',
   // },
   {
-    name: "Premium Victorian Necklace",
+    name: "Premium temple nagas jewellery",
     role: "",
-    avatar: "16.jpeg",
+    avatar: "cat1.jpeg",
     link: "#",
   },
   {
-    name: "Premium Victorian Necklace",
+    name: "Premium Jadau Kemp Jewellery",
     role: "",
-    avatar: "16.jpeg",
+    avatar: "cat2.jpeg",
     link: "#",
   },
   {
-    name: "Premium Victorian Necklace",
+    name: "Premium Temple Nagas Jewellery",
     role: "",
-    avatar: "16.jpeg",
+    avatar: "cat3.jpeg",
     link: "#",
   },
   {
-    name: "Premium Victorian Necklace",
+    name: "Premium Temple Nagas Jewellery",
     role: "",
-    avatar: "16.jpeg",
+    avatar: "cat4.jpeg",
     link: "#",
   },
+  {
+    name: "Premium Temple Chettinad Jewellery",
+    role: "",
+    avatar: "cat5.jpeg",
+    link: "#",
+  },
+  {
+    name: "Premium Jadau Kemp Jewellery",
+    role: "",
+    avatar: "cat6.jpeg",
+    link: "#",
+  },
+  // {
+  //   name: "Premium Temple Guttapusalu Jewellery",
+  //   role: "",
+  //   avatar: "cat7.jpeg",
+  //   link: "#",
+  // },
+  // {
+  //   name: "Premium Temple Nagas Jewellery",
+  //   role: "",
+  //   avatar: "cat8.jpeg",
+  //   link: "#",
+  // },
 ];
 
 export default function CardSection() {
@@ -103,10 +127,10 @@ export default function CardSection() {
         {/* <span className="text-caption -ml-6 -mt-3.5 block w-max bg-gray-50 px-6 dark:bg-gray-950">Models</span> */}
        
         <div className="mt-1 md:mt-4 p-4">
-          <div className="grid gap-x-4 gap-y-9 sm:grid-cols-3 lg:grid-cols-5">
+          <div className="grid gap-x-4 gap-y-9 sm:grid-cols-3 lg:grid-cols-4">
             {members.map((member, index) => (
               <>
-                <Card  key={index} className="relative max-w-5xl shadow-none">
+                <Card  key={index} className="relative max-w-3xl shadow-none">
                   <CardHeader>
                     <Lens
                       zoomFactor={1.4}
@@ -118,7 +142,7 @@ export default function CardSection() {
                         src={member?.avatar}
                         alt="image placeholder"
                         width={600}
-                        height={500}
+                        height={300}
                       />
                     </Lens>
                   </CardHeader>

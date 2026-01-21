@@ -7,7 +7,7 @@ import { TextEffect } from "@/components/ui/text-effect";
 import { AnimatedGroup } from "@/components/ui/animated-group";
 import { HeroHeader } from "@/components/header";
 import { TextAnimate } from "@/components/ui/magicui/text-animate";
-import { AnimatedGradientText } from "@/components/ui/magicui/animated-gradient-text"
+import { AnimatedGradientText } from "@/components/ui/magicui/animated-gradient-text";
 
 const transitionVariants = {
   item: {
@@ -51,43 +51,11 @@ export default function HeroSection() {
 
             <div className="mx-auto max-w-7xl px-6 text-center">
               <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
-                {/* <AnimatedGroup variants={transitionVariants}>
-                                    <Link
-                                        href="#link"
-                                        className="hover:bg-background dark:hover:border-t-border bg-muted group mx-auto flex w-fit items-center gap-4 rounded-full border p-1 pl-4 shadow-md shadow-zinc-950/5 transition-colors duration-300 dark:border-t-white/5 dark:shadow-zinc-950">
-                                        <span className="text-foreground text-sm">Introducing Support for AI Models</span>
-                                        <span className="dark:border-background block h-4 w-0.5 border-l bg-white dark:bg-zinc-700"></span>
-
-                                        <div className="bg-background group-hover:bg-muted size-6 overflow-hidden rounded-full duration-500">
-                                            <div className="flex w-12 -translate-x-1/2 duration-500 ease-in-out group-hover:translate-x-0">
-                                                <span className="flex size-6">
-                                                    <ArrowRight className="m-auto size-3" />
-                                                </span>
-                                                <span className="flex size-6">
-                                                    <ArrowRight className="m-auto size-3" />
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </Link>
-                                </AnimatedGroup> */}
-                                 <h3 className="mx-auto max-w-3xl text-3xl sm:text-2xl md:text-5xl lg:text-6xl text-center Page-Heading text-center">
-                                 Kerala’s Largest Premium Bridal Rental Jewellery
-                  </h3>
-
-                {/* <TextAnimate
-                  animation="blurIn"
-                  as="h2"
-                  className="
-    mx-auto max-w-3xl text-center
-    font-bold
-    text-3xl sm:text-2xl md:text-5xl lg:text-6xl
-
-    text-white
-    leading-tight
-  "
-                >
+               
+                <h3 className="mx-auto max-w-3xl text-3xl sm:text-2xl md:text-5xl lg:text-6xl text-center Page-Heading text-center">
                   Kerala’s Largest Premium Bridal Rental Jewellery
-                </TextAnimate> */}
+                </h3>
+             
                 <TextEffect
                   per="line"
                   preset="fade-in-blur"
@@ -126,10 +94,12 @@ export default function HeroSection() {
                     variant="ghost"
                     className="h-10.5 rounded-xl px-5 bg-background"
                   >
-                    <Link href="#link">
-                      <span className="text-nowrap">
-                        Book Your Consultation
-                      </span>
+                    <Link
+                      href="https://wa.me/918089933998?text=I%20would%20like%20to%20know%20more%20about%20Products"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="text-nowrap">Book Your Order</span>
                     </Link>
                   </Button>
                 </div>
