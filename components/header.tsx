@@ -10,7 +10,7 @@ const menuItems = [
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about-us' },
     { name: 'Services', href: 'services' },
-    { name: 'Contact Us', href: '/contact' },
+    { name: 'Contact Us', href: '/contact-us' },
 ]
 
 export const HeroHeader = () => {
