@@ -3,93 +3,66 @@ import { Settings2, Sparkles, Zap } from "lucide-react";
 import { ReactNode } from "react";
 
 export default function Features() {
+  const services = [
+    {
+      title: "Customization Services",
+      description:
+        "Share your vision and inspirations, and our expert team will create unique designs tailored just for you, ensuring your jewelry is as individual as you are.",
+    },
+    {
+      title: "Online & Offline Shopping",
+      description:
+        "Shop your way with our convenient online and offline purchasing options. Whether you prefer browsing our collection in person or from the comfort of your home, we make the process easy and enjoyable.",
+    },
+    {
+      title: "Personalized Styling Services",
+      description:
+        "Step into our showrooms and indulge in our exclusive styling services. Our skilled stylists are dedicated to helping you achieve a unique and elegant look, offering expert guidance to enhance your bridal style.",
+    },
+    {
+      title: "Trust Worthy Delivery Services",
+      description:
+        "We prioritize your peace of mind with our reliable delivery services. Rest assured that your selected jewelry will arrive safely and on time.",
+    },
+  ];
   return (
-           <section className="py-10 md:py-16 overflow-hidden  dark:bg-transparent">
-    <div className="relative  z-0 ">
-      <div className="relative overflow-hidden ">
-      <div className="absolute -mt-20 Dentobees-WhyChooseUs-TopBackground" />
-      <div className="absolute Dentobees-Pages-Background -z-10"></div>
-      <div className="@container mx-auto max-w-5xl px-6">
-        <div className="text-center">
-          <h2 className="text-balance text-4xl font-semibold lg:text-5xl">
-          Preferred By Many brides
-          </h2>
-          <p className="mt-4">
-            Libero sapiente aliquam quibusdam aspernatur, praesentium iusto
-            repellendus.
-          </p>
+    <section className="py-10 md:py-16 overflow-hidden  dark:bg-transparent">
+      <div className="relative  z-0 ">
+        <div className="relative overflow-hidden ">
+          <div className="absolute -mt-20 Dentobees-WhyChooseUs-TopBackground" />
+          <div className="absolute Dentobees-Pages-Background -z-10"></div>
+          <div className="@container mx-auto max-w-7xl px-6">
+            <div className="text-center">
+              <h2 className="text-balance text-4xl font-semibold lg:text-5xl">
+                Preferred By Many brides
+              </h2>
+              <p className="mt-4">
+              Your wedding day is not just an event; it's a cherished milestone, a moment that deserves to be celebrated in elegance and style. At Golden Cup, we understand the significance of this special occasion for every bride and her family. We're here to ensure that you shine brightly on your big day, creating memories that will last a lifetime.
+              </p>
+            </div>
+            <Card className="@min-4xl:max-w-full @min-4xl:grid-cols-4 @min-4xl:divide-x @min-4xl:divide-y-0 mx-auto mt-8 grid max-w-sm divide-y overflow-hidden shadow-zinc-950/5 *:text-center md:mt-16">
+              {services?.map((item) => {
+                return (
+                  <>
+                    <div className="group shadow-zinc-950/5">
+                      <CardHeader className="pb-3">
+                        <CardDecorator>
+                          <Zap className="size-6" aria-hidden />
+                        </CardDecorator>
+
+                        <h4 className="mt-6 font-medium">✨ {item?.title}</h4>
+                      </CardHeader>
+
+                      <CardContent>
+                        <p className="text-sm">{item?.description}</p>
+                      </CardContent>
+                    </div>
+                  </>
+                );
+              })}
+            </Card>
+          </div>
         </div>
-        <Card className="@min-4xl:max-w-full @min-4xl:grid-cols-4 @min-4xl:divide-x @min-4xl:divide-y-0 mx-auto mt-8 grid max-w-sm divide-y overflow-hidden shadow-zinc-950/5 *:text-center md:mt-16">
-          <div className="group shadow-zinc-950/5">
-            <CardHeader className="pb-3">
-              <CardDecorator>
-                <Zap className="size-6" aria-hidden />
-              </CardDecorator>
-
-              <h4 className="mt-6 font-medium">
-                ✨ *Kerala’s Largest Collection*{" "}
-              </h4>
-            </CardHeader>
-
-            <CardContent>
-              <p className="text-sm">
-                Hundreds of curated sets for every bridal style.
-              </p>
-            </CardContent>
-          </div>
-
-          <div className="group shadow-zinc-950/5">
-            <CardHeader className="pb-3">
-              <CardDecorator>
-                <Settings2 className="size-6" aria-hidden />
-              </CardDecorator>
-
-              <h3 className="mt-6 font-medium">💎 *Premium Quality* </h3>
-            </CardHeader>
-
-            <CardContent>
-              <p className="mt-3 text-sm">
-                Luxury pieces that look and feel real.
-              </p>
-            </CardContent>
-          </div>
-
-          <div className="group shadow-zinc-950/5">
-            <CardHeader className="pb-3">
-              <CardDecorator>
-                <Sparkles className="size-6" aria-hidden />
-              </CardDecorator>
-
-              <h3 className="mt-6 font-medium">
-                👑 *Exclusive & Unique Designs*{" "}
-              </h3>
-            </CardHeader>
-
-            <CardContent>
-              <p className="mt-3 text-sm">Be a bride that stands out.</p>
-            </CardContent>
-          </div>
-          <div className="group shadow-zinc-950/5">
-  <CardHeader className="pb-3">
-    <CardDecorator>
-      <Sparkles className="size-6" aria-hidden />
-    </CardDecorator>
-
-    <h3 className="mt-6 font-medium"> Online & Offline Services</h3>
-  </CardHeader>
-
-  <CardContent>
-    <p className="mt-3 text-sm">
-      Access our expert bridal styling and consultation services both online and in-person.
-    </p>
-  </CardContent>
-</div>
-
-          
-          
-        </Card>
-      </div>
-      </div>
       </div>
     </section>
   );

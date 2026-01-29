@@ -52,9 +52,10 @@ export default function HeroSection() {
             <div className="mx-auto max-w-7xl px-6 text-center">
               <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
                
-                <h3 className="mx-auto max-w-3xl text-3xl sm:text-2xl md:text-5xl lg:text-6xl text-center Page-Heading text-center">
-                  Kerala’s Largest Premium Bridal Rental Jewellery
-                </h3>
+              <h3 className="mx-auto max-w-5xl text-3xl sm:text-2xl md:text-5xl lg:text-6xl text-center font-bold space-grotesk leading-tight md:leading-snug lg:leading-tight">
+  Kerala’s Largest Premium Bridal Rental Jewellery
+</h3>
+
              
                 <TextEffect
                   per="line"
@@ -62,7 +63,7 @@ export default function HeroSection() {
                   speedSegment={0.3}
                   delay={0.5}
                   as="p"
-                  className="mx-auto mt-8 max-w-2xl text-foreground text-md"
+                  className="mx-auto mt-6 max-w-2xl text-foreground text-lg"
                 >
                   Step into a world of timeless elegance. We bring Kerala’s
                   biggest and finest collection of bridal rental jewellery,

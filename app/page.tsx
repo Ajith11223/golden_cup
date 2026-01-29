@@ -20,7 +20,7 @@ return <>
 <Features/>
 <CardSection/>
 <StatsSection/>
-<MarqueeDemo/>
+{/* <MarqueeDemo/> */}
 {/* <ModelCategory/> */}
 <WallOfLoveSection/>
 {/* <TopBrands/> */}

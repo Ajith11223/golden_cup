@@ -133,7 +133,7 @@ const ContactUs = () => {
                 Email Address
               </h6>
               <h3 className="text-white text-xl font-semibold leading-8 md:text-start text-center">
-                
+              goldencupheadoffice@gmail.com
               </h3>
             </div>
             <div>

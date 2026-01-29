@@ -15,15 +15,7 @@ const links = [
                 href: '#',
             },
             {
-                title: 'Solution',
-                href: '#',
-            },
-            {
                 title: 'Customers',
-                href: '#',
-            },
-            {
-                title: 'Pricing',
                 href: '#',
             },
             {
@@ -32,49 +24,17 @@ const links = [
             },
             {
                 title: 'About',
-                href: '#',
+                href: '/about-us',
             },
         ],
     },
-    {
-        group: 'Solution',
-        items: [
-            {
-                title: 'Startup',
-                href: '#',
-            },
-            {
-                title: 'Freelancers',
-                href: '#',
-            },
-            {
-                title: 'Organizations',
-                href: '#',
-            },
-            {
-                title: 'Students',
-                href: '#',
-            },
-            {
-                title: 'Collaboration',
-                href: '#',
-            },
-            {
-                title: 'Design',
-                href: '#',
-            },
-            {
-                title: 'Management',
-                href: '#',
-            },
-        ],
-    },
+    
     {
         group: 'Company',
         items: [
             {
                 title: 'About',
-                href: '#',
+                href: '/about-us',
             },
             {
                 title: 'Careers',
@@ -84,13 +44,10 @@ const links = [
                 title: 'Blog',
                 href: '#',
             },
-            {
-                title: 'Press',
-                href: '#',
-            },
+          
             {
                 title: 'Contact',
-                href: '#',
+                href: '/contact-us',
             },
             {
                 title: 'Help',

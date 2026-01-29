@@ -154,9 +154,9 @@ body {
   background: linear-gradient(
     135deg,
     #004d4d 65%, 
-    #6b8f75 100%, 
-    #003737 40%,
-    #001e1e 10% 
+    #27302a 100%, 
+    #091818 40%,
+    #004d4d 10% 
   );
   
   
@@ -191,17 +191,28 @@ body {
 
 
 .hero-bg {
-  background-image: 
+  background-image:
+    /* Gradient overlay */
     linear-gradient(
-      to bottom, 
-      rgba(2, 10, 10, 0.6),  /* top overlay */
-      rgba(12, 12, 12, 0.3)   /* bottom overlay */
+      180deg,
+      #03110E 0%,
+      rgba(74, 80, 79, 0.37) 103.16%,
+      rgba(26, 20, 20, 0.34) 100%
     ),
-    url('/IMG_0452.JPG');    /* background image */
+    /* Background image */
+    url('/IMG_0452.JPG');
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 1000px;
+}
+
+.space-grotesk {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
 }
 
 .Sub-heading {
