@@ -155,7 +155,7 @@ const ContactUs = () => {
   branchData?.map((item)=>{
     return(
       <>
-      <div className="h-96 relative flex justify-center rounded-md">
+      <div className="h-96 relative flex justify-center rounded-md transition-transform duration-500 hover:scale-105">
             <div className="w-full h-full absolute " />
             <img
               src={item?.img}
