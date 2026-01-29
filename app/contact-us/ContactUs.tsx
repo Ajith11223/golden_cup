@@ -5,6 +5,66 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 const ContactUs = () => {
+
+  const branchData = [
+    {
+      img:"/branch/calicut.jpeg",
+      branch:"Calicut",
+        "num1": "+91 7558 093 998",
+    "num2": "+91 9947 493 998"
+    },
+    {
+      img:"/branch/edappal.jpeg",
+       branch:"Edappal",
+         "num1": "+91 9633 163 998",
+    "num2": "+91 9746 373 998"
+    },
+    {
+      img:"/branch/kannur.jpeg",
+       branch:"Kannur",
+          "num1": "+91 7907 489 939",
+    "num2": "+91 9633 241 074"
+    },
+    {
+      img:"/branch/kollam.jpeg",
+       branch:"Kollam",
+        "num1": "+91 9746 593 998",
+    "num2": "+91 9895 693 998"
+    },
+    {
+      img:"/branch/kottakkal.jpeg",
+       branch:"kottakal",
+          "num1": "+91 9605 093 998",
+    "num2": "+91 8606 093 998"
+    },
+    {
+      img:"/branch/mgroad.jpeg",
+       branch:"Kochi - (MG road)",
+        "num1": "+91 62384 73294",
+    "num2": "+91 97465 23998"
+    },
+    {
+      img:"/branch/thrissur.jpeg",
+       branch:"thrissur",
+       "num1": "+91 9895 693 998",
+       "num2": "+91 9746 594 998",
+       "num3": "+91 7994 983 998"
+    },
+    {
+      img:"/branch/tirur.jpeg",
+       branch:"tirur",
+        "num1": "+91 9037 093 998",
+    "num2": "+91 7736 057 892"
+    },
+    {
+      img:"/branch/tvm.jpeg",
+       branch:"Trivandrum",
+       num1:"",
+       num2:""
+    },
+   
+
+  ]
   return (
     <div className="relative overflow-hidden z-0 ">
       <div className="relative overflow-hidden ">
@@ -18,11 +78,11 @@ const ContactUs = () => {
         <div className="md:flex gap-x-24 clear-left md:mb-16 mb-10">
           <div className="md:mb-0 mb-4">
             <h2 className="text-white  font-manrope text-4xl font-semibold leading-10 mb-5 md:text-left text-center">
-              Get In Touch
+              OUR BRANCHES
             </h2>
             <p className="text-white text-lg font-normal leading-7 mb-7 md:text-left text-center">
-              Whether you have a concern or simply want to say hello, We are here
-              to facilitate communication with you.
+            Golden Cup proudly serves brides across Kerala withour exquisite collection and exceptional service.
+            Visit us at any of our locations:
             </p>
             <div className="flex md:items-center md:justify-start justify-center">
               {/* <button className="w-36 h-12 rounded-full bg-indigo-600 transition-all duration-700 hover:bg-indigo-800 shadow text-white text-center text-base font-semibold leading-6">
@@ -37,7 +97,7 @@ const ContactUs = () => {
                       size="lg"
                       className="rounded-xl px-5 text-base"
                     >
-                      <Link href="#link">
+                      <Link href="https://wa.me/918089933998?text=I%20would%20like%20to%20know%20more%20about%20Products">
                         <span className="text-nowrap">
                           Contact Us
                         </span>
@@ -54,93 +114,60 @@ const ContactUs = () => {
                 Email Address
               </h6>
               <h3 className="text-white text-xl font-semibold leading-8 md:text-start text-center">
-                pagedone@gmail.com
+                
               </h3>
             </div>
             <div>
-              <h6 className="text-white text-sm font-medium leading-5 pb-3 md:text-start text-center">
+              <h6 className="text-white text-sm whitespace-nowrapwrap font-medium leading-5 pb-3 md:text-start text-center">
                 Phone Number
               </h6>
-              <h3 className="text-white text-xl font-semibold leading-8 md:text-start text-center">
-                470-601-1911
+              <h3 className="text-white text-xl whitespace-nowrap font-semibold leading-8 md:text-start text-center">
+              +91 7736 206 117  <br />
+              +91 8089 651 212
               </h3>
             </div>
           </div>
         </div>
 
         {/* Location Cards */}
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8">
-          {/* Card 1 */}
-          <div className="h-96 relative flex justify-center">
-            <div className="w-full h-full absolute bg-gradient-to-t from-gray-800/50 to-gray-600/50" />
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8">
+
+{
+  branchData?.map((item)=>{
+    return(
+      <>
+      <div className="h-96 relative flex justify-center rounded-md">
+            <div className="w-full h-full absolute " />
             <img
-              src="https://pagedone.io/asset/uploads/1696246502.png"
+              src={item?.img}
               alt="United Kingdom"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded-md"
             />
             <div className="absolute bottom-0 mb-6 text-center px-6">
-              <h5 className="text-white text-lg font-semibold leading-7 mb-2">
-                United Kingdom
+              <h5 className="text-white uppercase text-lg font-semibold leading-7 mb-2">
+                {item?.branch}
               </h5>
               <p className="text-white text-base font-medium leading-6">
-                123 High Street, Westminster, London
+                {/* 123 High Street, Westminster, London */}
+                {
+                  item?.num1
+                }, <br /> {
+                  item?.num2
+                }
               </p>
             </div>
           </div>
+      </>
+    )
+  })
+}
 
-          {/* Card 2 */}
-          <div className="h-96 relative flex justify-center">
-            <div className="w-full h-full absolute bg-gradient-to-t from-gray-800/50 to-gray-600/50" />
-            <img
-              src="https://pagedone.io/asset/uploads/1696246522.png"
-              alt="Germany"
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute bottom-0 mb-6 text-center px-6">
-              <h5 className="text-white text-lg font-semibold leading-7 mb-2">
-                Germany
-              </h5>
-              <p className="text-white text-base font-medium leading-6">
-                101 Unter den Linden, Mitte <br /> District, Berlin
-              </p>
-            </div>
-          </div>
+          {/* Card 1 */}
+          
 
-          {/* Card 3 */}
-          <div className="h-96 relative flex justify-center">
-            <div className="w-full h-full absolute bg-gradient-to-t from-gray-800/50 to-gray-600/50" />
-            <img
-              src="https://pagedone.io/asset/uploads/1696246551.png"
-              alt="France"
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute bottom-0 mb-6 text-center px-6">
-              <h5 className="text-white text-lg font-semibold leading-7 mb-2">
-                France
-              </h5>
-              <p className="text-white text-base font-medium leading-6">
-                456 Rue de la Paix, 8th Arrondissement, Paris
-              </p>
-            </div>
-          </div>
+          
 
-          {/* Card 4 */}
-          <div className="h-96 relative flex justify-center">
-            <div className="w-full h-full absolute bg-gradient-to-t from-gray-800/50 to-gray-600/50" />
-            <img
-              src="https://pagedone.io/asset/uploads/1696246565.png"
-              alt="Switzerland"
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute bottom-0 mb-6 text-center px-6">
-              <h5 className="text-white text-lg font-semibold leading-7 mb-2">
-                Switzerland
-              </h5>
-              <p className="text-white text-base font-medium leading-6">
-                987 Bahnhofstrasse, Zurich <br /> City Center, Zurich
-              </p>
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>
