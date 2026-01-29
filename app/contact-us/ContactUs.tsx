@@ -6,61 +6,80 @@ import Link from "next/link";
 
 const ContactUs = () => {
 
+
   const branchData = [
     {
       img:"/branch/calicut.jpeg",
       branch:"Calicut",
         "num1": "+91 7558 093 998",
-    "num2": "+91 9947 493 998"
+    "num2": "+91 9947 493 998",
+    body: "Mavoor Rd, near New Kalyan Jewellery, Parayancheri, Kottooli, Kozhikode, Kerala 673016",
+
     },
     {
       img:"/branch/edappal.jpeg",
        branch:"Edappal",
          "num1": "+91 9633 163 998",
-    "num2": "+91 9746 373 998"
+    "num2": "+91 9746 373 998",
+    body: "Al-Madeena Complex, near State Bank of India, Edappal, Kerala 679576",
+
     },
     {
       img:"/branch/kannur.jpeg",
        branch:"Kannur",
           "num1": "+91 7907 489 939",
-    "num2": "+91 9633 241 074"
+    "num2": "+91 9633 241 074",
+    body: "Junction, near NRE Electronics, Thana, Kannur, Kerala 670012",
+
     },
     {
       img:"/branch/kollam.jpeg",
        branch:"Kollam",
         "num1": "+91 9746 593 998",
-    "num2": "+91 9895 693 998"
+    "num2": "+91 9895 693 998",
+    body: "Vadakkavila, Polayathodu, Kollam, Kerala 691021",
+
     },
     {
       img:"/branch/kottakkal.jpeg",
        branch:"kottakal",
           "num1": "+91 9605 093 998",
-    "num2": "+91 8606 093 998"
+    "num2": "+91 8606 093 998",
+    body: "Near Thaif Womens Mall, Main Road, Kottakkal, Kerala 676503",
+
     },
     {
       img:"/branch/mgroad.jpeg",
        branch:"Kochi - (MG road)",
         "num1": "+91 62384 73294",
-    "num2": "+91 97465 23998"
+    "num2": "+91 97465 23998",
+    body: "Filler No: 709, Chenchery Building, Mahatma Gandhi Rd, Ground Junction, Ernakulam South, Kochi, Ernakulam, Kerala 682011",
+
     },
     {
       img:"/branch/thrissur.jpeg",
        branch:"thrissur",
        "num1": "+91 9895 693 998",
        "num2": "+91 9746 594 998",
-       "num3": "+91 7994 983 998"
+       "num3": "+91 7994 983 998",
+    body: "First Floor, Chettupuzha Tower, Sona Hotels, Sankaraiyyer Road, Thrissur, Kerala 680004",
+
     },
     {
       img:"/branch/tirur.jpeg",
        branch:"tirur",
         "num1": "+91 9037 093 998",
-    "num2": "+91 7736 057 892"
+    "num2": "+91 7736 057 892",
+    body: "Main Road, opposite Family Wedding Center, Pan Bazaar, Tirur, Kerala 676101",
+
     },
     {
       img:"/branch/tvm.jpeg",
        branch:"Trivandrum",
        num1:"",
-       num2:""
+       num2:"",
+    body: "",
+
     },
    
 
@@ -147,8 +166,11 @@ const ContactUs = () => {
               <h5 className="text-white uppercase text-lg font-semibold leading-7 mb-2">
                 {item?.branch}
               </h5>
-              <p className="text-white text-base font-medium leading-6">
-                {/* 123 High Street, Westminster, London */}
+             
+          <p className="text-white text-base font-medium leading-6">
+            {item?.body}
+          </p>
+          <p className="text-white text-base font-medium leading-6">
                 {
                   item?.num1
                 }, <br /> {
