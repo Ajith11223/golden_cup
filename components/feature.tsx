@@ -50,7 +50,7 @@ export default function Features() {
                           <Zap className="size-6" aria-hidden />
                         </CardDecorator>
 
-                        <h4 className="mt-6 font-medium">✨ {item?.title}</h4>
+                        <h4 className="mt-6 font-medium text-lg font-semibold">✨ {item?.title}</h4>
                       </CardHeader>
 
                       <CardContent>

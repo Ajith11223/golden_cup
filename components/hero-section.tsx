@@ -63,7 +63,7 @@ export default function HeroSection() {
                   speedSegment={0.3}
                   delay={0.5}
                   as="p"
-                  className="mx-auto mt-6 max-w-2xl text-foreground text-lg"
+                  className="mx-auto mt-6 max-w-2xl text-foreground text-lg leading-snug"
                 >
                   Step into a world of timeless elegance. We bring Kerala’s
                   biggest and finest collection of bridal rental jewellery,

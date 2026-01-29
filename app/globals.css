@@ -215,6 +215,11 @@ body {
   font-style: normal;
 }
 
+.space-main {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
 .Sub-heading {
   font-size: 22px;
   line-height: 36.4px;

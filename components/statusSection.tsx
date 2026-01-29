@@ -10,9 +10,12 @@ export default function StatsSection() {
             Where legacy meets trust.
           </h2>
           <p>
-            Gemini is evolving to be more than just the models. It supports an
-            entire to the APIs and platforms helping developers and businesses
-            innovate.
+            Your wedding day is not just an event; it's a cherished milestone, a
+            moment that deserves to be celebrated in elegance and style. At
+            Golden Cup, we understand the significance of this special occasion
+            for every bride and her family. We're here to ensure that you shine
+            brightly on your big day, creating memories that will last a
+            lifetime.
           </p>
         </div>
 

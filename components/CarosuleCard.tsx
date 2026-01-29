@@ -39,35 +39,35 @@ export default function CarouselControlsOutside() {
     "./act/act5.jpeg",
     "./act/act6.jpeg",
     "./act/act7.jpeg",
-    "./act/act8.jpeg"
-  ]
-  
+    "./act/act8.jpeg",
+  ];
 
   return (
     <>
       {/*<!-- Component: Carousel with controls outside --> */}
       <section className="dark:bg-transparent border Dentobees-Pages-Background ">
-      <div className="relative overflow-hidden z-0 bg-muted">
-      <div className="relative overflow-hidden ">
-      <div className="absolute -mt-10 -md:mt-16 -xl:mt-20 Dentobees-WhyChooseUs-TopBackground" />
-      <div className="absolute Dentobees-Pages-Background -z-10"></div>
+        <div className="relative overflow-hidden z-0 bg-muted">
+          <div className="relative overflow-hidden ">
+            <div className="absolute -mt-10 -md:mt-16 -xl:mt-20 Dentobees-WhyChooseUs-TopBackground" />
+            <div className="absolute Dentobees-Pages-Background -z-10"></div>
 
-        <div className="@container mx-auto max-w-8xl px-6 ">
-        <div className="
+            <div className="@container mx-auto max-w-8xl px-6 ">
+              <div
+                className="
          py-8 md:py-10 xl:py-[60px]  px-3 sm:px-5 md:px-[30px] lg:px-[50px] xl:px-[60px] flex flex-row items-center justify-between gap-7 lg:gap-[40px] md:flex-row gap-[30px] items-center 
-               backdrop-blur-[18%] rounded-[16px]">
-     
-        <div className="glide-04 relative w-full">
-          {/*    <!-- Slides --> */}
-          <div className="overflow-hidden" data-glide-el="track">
-            <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
-              {arr?.map((item: any) => {
-                return (
-                  <>
-              <img
-  src={item}
-  alt=""
-  className="
+               backdrop-blur-[18%] rounded-[16px]"
+              >
+                <div className="glide-04 relative w-full">
+                  {/*    <!-- Slides --> */}
+                  <div className="overflow-hidden" data-glide-el="track">
+                    <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
+                      {arr?.map((item: any) => {
+                        return (
+                          <>
+                            <img
+                              src={item}
+                              alt=""
+                              className="
     w-full
     max-w-full
     object-cover
@@ -79,20 +79,19 @@ export default function CarouselControlsOutside() {
     [mask-image:radial-gradient(white,black)]
     rounded-lg
   "
-/>
-                  </>
-                );
-              })}
-            </ul>
-            {/* <h4 className="Sub-heading font-bold">
+                            />
+                          </>
+                        );
+                      })}
+                    </ul>
+                    {/* <h4 className="Sub-heading font-bold">
             Our Collections
           </h4> */}
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          
-        </div>
-        </div>
-        </div>
-        </div>
         </div>
         {/* </div> */}
       </section>
