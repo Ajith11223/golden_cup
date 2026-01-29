@@ -114,7 +114,7 @@ export default function CardSection() {
     {members.map((member, index) => (
       <div
         key={index}
-        className="relative flex flex-col bg-gray-100 shadow-sm border border-slate-200 rounded-lg w-full max-w-sm mx-auto hero-bg-image "
+        className="relative flex flex-col bg-gray-100 shadow-sm border border-slate-200 rounded-lg w-full max-w-sm mx-auto "
       >
         {/* Image */}
         <div className="relative h-64 sm:h-72 md:h-80 m-2.5 overflow-hidden rounded-md">
