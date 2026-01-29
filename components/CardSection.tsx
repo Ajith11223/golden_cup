@@ -114,7 +114,7 @@ export default function CardSection() {
     {members.map((member, index) => (
       <div
         key={index}
-        className="relative flex flex-col bg-gray-100 shadow-sm border border-slate-200 rounded-lg w-full max-w-sm mx-auto "
+        className="relative flex flex-col fff  shadow-sm border border-slate-200 rounded-lg w-full max-w-sm mx-auto "
       >
         {/* Image */}
         <div className="relative h-64 sm:h-72 md:h-80 m-2.5 overflow-hidden rounded-md">
@@ -127,10 +127,10 @@ export default function CardSection() {
 
         {/* Content */}
         <div className="p-4">
-          <h6 className="mb-2 text-slate-800 text-lg md:text-xl font-semibold">
+          <h6 className="mb-2 text-white text-lg md:text-xl font-semibold">
             {member.name}
           </h6>
-          <p className="text-slate-600 text-sm md:text-base leading-snug">
+          <p className="text-white text-sm md:text-base leading-snug">
             {member.description}
           </p>
         </div>
