@@ -22,7 +22,7 @@ return <>
 <StatsSection/>
 {/* <MarqueeDemo/> */}
 {/* <ModelCategory/> */}
-<WallOfLoveSection/>
+{/* <WallOfLoveSection/> */}
 {/* <TopBrands/> */}
 <FAQsThree/>
 <FooterSection/>

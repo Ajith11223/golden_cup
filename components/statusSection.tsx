@@ -34,18 +34,19 @@ export default function StatsSection() {
               <NumberTicker
                 value={300000}
                 className="text-6xl font-medium tracking-tighter whitespace-pre-wrap text-white dark:text-white"
-              />
+              /> {" + "}
             </div>
+            
             <p>Happy Brides</p>
           </div>
           <div className="space-y-4">
             <div className="text-4xl font-bold">
               <NumberTicker
-                value={500}
+                value={5000}
                 className="text-6xl font-medium tracking-tighter whitespace-pre-wrap text-white dark:text-white"
               />
             </div>
-            <p>Models</p>
+            <p>Designs</p>
           </div>
         </div>
       </div>

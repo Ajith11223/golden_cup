@@ -151,11 +151,11 @@ const ContactUs = () => {
         {/* Location Cards */}
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8">
 
-{
+{      
   branchData?.map((item)=>{
     return(
       <>
-      <div className="h-96 relative flex justify-center rounded-md transition-transform duration-500 hover:scale-105 hero-bg-image ">
+      <div className="h-96 relative flex justify-center fff rounded-md transition-transform duration-500 hover:scale-105 hero-bg-image ">
             <div className="w-full h-full absolute " />
             <img
               src={item?.img}
