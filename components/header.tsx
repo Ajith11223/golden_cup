@@ -9,7 +9,7 @@ import { cn } from '@/lib/utils'
 const menuItems = [
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about-us' },
-    { name: 'Services', href: 'services' },
+    // { name: 'Services', href: 'services' },
     { name: 'Contact Us', href: '/contact-us' },
 ]
 
