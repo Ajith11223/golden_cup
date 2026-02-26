@@ -24,6 +24,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Golden cup",
   description: "Goldencup jewellery",
+  icons: {
+    icon: "/logoo.svg",
+  },
 };
 
 export default function RootLayout({
