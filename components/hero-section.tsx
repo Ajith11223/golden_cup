@@ -96,7 +96,7 @@ export default function HeroSection() {
                     className="h-10.5 rounded-xl px-5 bg-background"
                   >
                     <Link
-                      href="https://wa.me/918089933998?text=I%20would%20like%20to%20know%20more%20about%20Products"
+                      href="https://wa.me/917736206117?text=I%20would%20like%20to%20know%20more%20about%20Products"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
